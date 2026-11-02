@@ -83,9 +83,9 @@ flowchart TD
 
 ```
 
-Si prefieres la opción más infalible que **nunca falla en ningún visor de GitHub**, te recomiendo usar una tabla nativa de Markdown como esta:
 
-```
+
+``` markdown
 | Modelo | Definición | Forma de Representación de Datos |
 | :--- | :--- | :--- |
 | **Jerárquico** | Modelo tradicional donde los datos se organizan en una estructura de **árbol invertido**. Establece relaciones de padre a hijo, donde cada hijo tiene un único padre (relación 1:N). | Estructura arborescente conectada por nodos y ramas jerárquicas. |
