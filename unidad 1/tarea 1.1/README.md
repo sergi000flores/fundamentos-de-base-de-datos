@@ -1,3 +1,8 @@
+Tarea 1.1 
+mapa conceptual 
+
+
+
 ```mermaid
 flowchart TD
     %% Nodo Principal
