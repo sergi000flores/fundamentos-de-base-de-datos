@@ -1,4 +1,4 @@
-# Diagramas de Bases de Datos
+# Documentación de Bases de SGBD
 
 ## 1. Conceptos y Estructura de BD y SGBD
 
