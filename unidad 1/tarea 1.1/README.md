@@ -31,5 +31,26 @@ flowchart TD
     style C4 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
     style D1 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
     style D2 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
+```
+cuadro comparativo
+```mermaid
+graph TD
+    %% Estilos de los nodos
+    classDef modelStyle fill:#2d3748,stroke:#4a5568,stroke-width:2px,color:#fff;
+    classDef descStyle fill:#1a202c,stroke:#2d3748,stroke-width:1px,color:#e2e8f0;
+
+    %% Nodos principales de la tabla
+    subgraph Modelos de Bases de Datos
+        H["<b>Modelo Jerárquico</b><br/>• Estructura: Árbol invertido (Nodos y ramas)<br/>• Relación: Padre a hijo (1:N)"]:::modelStyle
+        N["<b>Modelo en Red</b><br/>• Estructura: Grafo / Red (Punteros y enlaces)<br/>• Relación: Múltiples padres (N:M)"]:::modelStyle
+        R["<b>Modelo Relacional</b><br/>• Estructura: Tablas bidimensionales (Filas y columnas)<br/>• Vinculación: Claves primarias y foráneas"]:::modelStyle
+        O["<b>Modelo Orientado a Objetos</b><br/>• Estructura: Objetos y clases<br/>• Conceptos: Atributos, métodos y herencia"]:::modelStyle
+    end
+
+    %% Flujo y evolución
+    H -->|Evolución para permitir N:M| N
+    N -->|Evolución hacia estándar relacional| R
+    R -->|Integración con POO| O
+```
     style D3 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
     style D4 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
