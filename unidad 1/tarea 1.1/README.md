@@ -1,3 +1,7 @@
+# Diagramas de Bases de Datos
+
+## 1. Conceptos y Estructura de BD y SGBD
+
 ```mermaid
 flowchart TD
     %% Nodo Principal
@@ -18,7 +22,7 @@ flowchart TD
     
     C4 --> D4["• Banca y Finanzas<br/>• Comercio Electrónico<br/>• Salud y Medicina<br/>• Educación<br/>• Telecomunicaciones<br/>• Gobierno y Admin. Pública"]
 
-    %% Estilo visual similar al de la imagen
+    %% Estilo visual
     style ROOT fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
     style C1 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
     style C2 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
