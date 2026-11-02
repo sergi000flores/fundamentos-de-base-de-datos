@@ -1,45 +1,30 @@
 ```mermaid
-graph TD
-    %% Nivel de Usuarios y Aplicaciones
-    U1[Usuario 1]
-    U2[Usuario 2]
-    App[Aplicación]
+flowchart TD
+    %% Nodo Principal
+    ROOT["BASES DE DATOS (BD) Y SISTEMAS DE GESTIÓN (SGBD)"]
 
-    %% Nivel Externo
-    subgraph NE [Nivel Externo]
-        V1[Vista / Esquema Externo 1]
-        V2[Vista / Esquema Externo 2]
-        V3[Vista / Esquema Externo 3]
-    end
+    %% Conexión central de primer nivel
+    ROOT --> C1["conceptos<br/>fundamentales"]
+    ROOT --> C2["objetivos<br/>principales"]
+    ROOT --> C3["usos"]
+    ROOT --> C4["aplicaciones"]
 
-    %% Nivel Conceptual
-    subgraph NC [Nivel Conceptual]
-        EC[Esquema Conceptual Global / Lógico]
-    end
+    %% Bloques de detalle
+    C1 --> D1["• Dato: Unidad mínima de información.<br/>• Información: Datos procesados con contexto.<br/>• Base de Datos: Colección organizada de datos.<br/>• SGBD (DBMS): Software de gestión e interfaz de la base de datos.<br/>• Propiedades Clave:<br/>• Independencia de datos<br/>• Control de redundancia<br/>• Integridad<br/>• Seguridad"]
+    
+    C2 --> D2["• Centralización y consistencia<br/>• Reducción de redundancia<br/>• Seguridad y control de acceso<br/>• Soporte para acceso concurrente<br/>• Persistencia de datos"]
+    
+    C3 --> D3["• Procesamiento de Transacciones en Línea (OLTP):<br/>• Ejemplo: compras, pagos.<br/>• Procesamiento Analítico en Línea (OLAP):<br/>• Ejemplo: inteligencia de negocios, análisis complejos."]
+    
+    C4 --> D4["• Banca y Finanzas<br/>• Comercio Electrónico<br/>• Salud y Medicina<br/>• Educación<br/>• Telecomunicaciones<br/>• Gobierno y Admin. Pública"]
 
-    %% Nivel Interno
-    subgraph NI [Nivel Interno]
-        EI[Esquema Interno / Almacenamiento Físico]
-    end
-
-    %% Almacenamiento Físico
-    BD[(Dispositivos de Almacenamiento / Disco)]
-
-    %% Conexiones de Usuarios a Vistas
-    U1 --> V1
-    U2 --> V2
-    App --> V3
-
-    %% Mapeos entre niveles
-    V1 -->|Correspondencia Externo-Conceptual| EC
-    V2 -->|Correspondencia Externo-Conceptual| EC
-    V3 -->|Correspondencia Externo-Conceptual| EC
-
-    EC -->|Correspondencia Conceptual-Interno| EI
-    EI --> BD
-
-    %% Estilos de Nodos
-    style NE fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
-    style NC fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style NI fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    style BD fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    %% Estilo visual similar al de la imagen
+    style ROOT fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style C1 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style C2 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style C3 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style C4 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10
+    style D1 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
+    style D2 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
+    style D3 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
+    style D4 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
