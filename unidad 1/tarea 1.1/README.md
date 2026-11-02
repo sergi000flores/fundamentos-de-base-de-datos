@@ -5,18 +5,18 @@ graph TD
         App[Aplicación]
     end
 
-    subgraph NE ["Nivel Externo - Vistas"]
-        V1[Vista 1: Oculta detalles]
-        V2[Vista 2: Personalizada]
-        V3[Vista Aplicación]
+    subgraph NE ["Nivel Externo"]
+        V1[Vista 1]
+        V2[Vista 2]
+        V3[Vista 3]
     end
 
-    subgraph NC ["Nivel Conceptual - Global"]
-        EC[Esquema Conceptual Lógico]
+    subgraph NC ["Nivel Conceptual"]
+        EC[Esquema Conceptual Global]
     end
 
-    subgraph NI ["Nivel Interno - Físico"]
-        EI[Esquema Interno en Hardware]
+    subgraph NI ["Nivel Interno"]
+        EI[Esquema Interno Físico]
     end
 
     BD[(Dispositivos de Almacenamiento)]
