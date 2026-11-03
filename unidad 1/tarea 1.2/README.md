@@ -1,7 +1,7 @@
 tarea 1.2  cuadro sinoptico de la clasificacion de base de datos
 graph TD
     ROOT["CLASIFICACIÓN DE LAS BASES DE DATOS"]
-´´´ mermaid
+
     %% Categorías principales
     ROOT --> C1["SEGÚN LA UBICACIÓN"]
     ROOT --> C2["SEGÚN LA VARIABILIDAD"]
@@ -39,4 +39,4 @@ graph TD
     style C3 fill:#ffffff,stroke:#333,stroke-width:1px
     style C4 fill:#ffffff,stroke:#333,stroke-width:1px
     style C5 fill:#ffffff,stroke:#333,stroke-width:1px
-´´´
+
