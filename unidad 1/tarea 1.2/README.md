@@ -41,3 +41,51 @@ graph TD
     style C4 fill:#ffffff,stroke:#333,stroke-width:1px
     style C5 fill:#ffffff,stroke:#333,stroke-width:1px
 ```
+
+Arquitectura de 3 niveles  de una base de datos (MODELO ANSI /SPARC)
+
+```mermaid
+graph TD
+    %% Usuarios y Aplicación
+    U1["Usuario 1"] --> V1["Vista / Esquema Externo 1"]
+    U2["Usuario 2"] --> V2["Vista / Esquema Externo 2"]
+    App["Aplicación"] --> V3["Vista / Esquema Externo 3"]
+
+    %% Correspondencia Externo-Conceptual
+    V1 --> CE1["Correspondencia Externo-Conceptual"]
+    V2 --> CE2["Correspondencia Externo-Conceptual"]
+    V3 --> CE3["Correspondencia Externo-Conceptual"]
+
+    %% Nivel Conceptual
+    CE1 --> C["Esquema Conceptual Global / Lógico"]
+    CE2 --> C
+    CE3 --> C
+
+    %% Correspondencia Conceptual-Interno
+    C --> CI["Correspondencia Conceptual-Interno"]
+
+    %% Nivel Interno
+    CI --> I["Esquema Interno / Almacenamiento Físico"]
+
+    %% Almacenamiento Físico
+    I --> D[(Dispositivos de Almacenamiento / Disco)]
+
+    %% Estilos de Agrupación (Opcional para replicar los contenedores de niveles)
+    subgraph Nivel_Externo ["Nivel Externo"]
+        V1
+        V2
+        V3
+    end
+
+    subgraph Nivel_Conceptual ["Nivel Conceptual"]
+        C
+    end
+
+    subgraph Nivel_Interno ["Nivel Interno"]
+        I
+    end
+
+    style Nivel_Externo fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    style Nivel_Conceptual fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style Nivel_Interno fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+```
