@@ -51,6 +51,5 @@ graph TD
     H -->|Evolución para permitir N:M| N
     N -->|Evolución hacia estándar relacional| R
     R -->|Integración con POO| O
-    style D3 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
-    style D4 fill:#FAFCE6,stroke:#333,stroke-width:1px,rx:10,ry:10,text-align:left
+    
 ```
