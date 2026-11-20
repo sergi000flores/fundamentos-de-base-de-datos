@@ -1,4 +1,4 @@
-README – Normalización de Base de Datos
+Normalización de Base de Datos
 
 Descripción
 
