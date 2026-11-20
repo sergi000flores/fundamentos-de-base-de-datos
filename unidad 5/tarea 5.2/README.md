@@ -1,1 +1,1 @@
-
+En esta tarea A partir del esquema de base de datos relacional del  proyecto, se  planteo y resolvio formalmente un catálogo de al menos 10 consultas de diferente complejidad mediante expresiones de álgebra relacional.
