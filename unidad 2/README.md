@@ -36,4 +36,3 @@ Unidad 2/
 └── Tarea 2.2/
 ```
 
-*(Ajusta los nombres de las subcarpetas o archivos según tu organización final en el repositorio).*
