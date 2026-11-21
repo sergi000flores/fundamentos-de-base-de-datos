@@ -34,4 +34,4 @@ Unidad 1/
 └── Tarea 1.2/
 ```
 
-*(Ajusta los nombres de las subcarpetas o archivos según como los tengas guardados en tu repositorio).*
+
