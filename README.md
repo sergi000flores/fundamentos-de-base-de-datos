@@ -1,4 +1,4 @@
-# Fundamentos de Base de Datos — Clínica Veterinaria "Patitas Felices"
+# Fundamentos de Base de Datos — tareas de unidad
 
 * **Institución:** Instituto Tecnológico Superior de Monclova (ITSM)
 * **Asignatura:** Fundamentos de Base de Datos
