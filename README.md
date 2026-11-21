@@ -20,12 +20,12 @@ Haz clic en el enlace de cada unidad para consultar su documentación detallada 
 
 | Unidad | Tema Principal | Enlace a la Unidad |
 | :--- | :--- | :--- |
-| **Unidad 1** | Fundamentos, modelos de datos, clasificación y arquitectura ANSI/SPARC / SGBD | [Ir a Unidad 1](./Unidad_1/README.md) |
-| **Unidad 2** | Modelado conceptual E-R, E-R Extendido (E-RE) y transición a UML | [Ir a Unidad 2](./Unidad_2/README.md) |
-| **Unidad 3** | Transformación a esquema relacional, reglas de integridad y esquema físico en SGBD[cite: 11] | [Ir a Unidad 3](./Unidad_3/README.md) |
-| **Unidad 4** | Dependencias funcionales, formas normales (1FN–5FN) y proceso de normalización[cite: 15] | [Ir a Unidad 4](./Unidad_4/README.md) |
-| **Unidad 5** | Álgebra relacional (básica y extendida) y resolución formal de consultas | [Ir a Unidad 5](./Unidad_5/README.md) |
-| **Unidad 6** | Lenguaje SQL (DDL y DML), carga de datos, consultas y mantenimiento[cite: 25] | [Ir a Unidad 6](./Unidad_6/README.md) |
+| **Unidad 1** | Fundamentos, modelos de datos, clasificación y arquitectura ANSI/SPARC / SGBD | [Ir a Unidad 1](./unidad_1/README.md) |
+| **Unidad 2** | Modelado conceptual E-R, E-R Extendido (E-RE) y transición a UML | [Ir a Unidad 2](./unidad_2/README.md) |
+| **Unidad 3** | Transformación a esquema relacional, reglas de integridad y esquema físico en SGBD[cite: 11] | [Ir a Unidad 3](./unidad_3/README.md) |
+| **Unidad 4** | Dependencias funcionales, formas normales (1FN–5FN) y proceso de normalización[cite: 15] | [Ir a Unidad 4](./unidad_4/README.md) |
+| **Unidad 5** | Álgebra relacional (básica y extendida) y resolución formal de consultas | [Ir a Unidad 5](./unidad_5/README.md) |
+| **Unidad 6** | Lenguaje SQL (DDL y DML), carga de datos, consultas y mantenimiento[cite: 25] | [Ir a Unidad 6](./unidad_6/README.md) |
 
 ---
 
