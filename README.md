@@ -74,4 +74,4 @@ Haz clic en el enlace de cada unidad para consultar su documentación detallada 
     └── README.md
 ```
 
-> *Nota:* Asegúrate de que los nombres de las carpetas (`Unidad_1`, `Unidad_2`, etc.) coincidan exactamente con los que tienes en tu repositorio para que los enlaces relativos funcionen sin problemas en GitHub.
+
